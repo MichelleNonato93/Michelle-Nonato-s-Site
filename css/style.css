@@ -116,6 +116,12 @@ hr.black{
   border-radius: 180px;
   border: 5px solid #00CCFF;
 }
+#about .sub-title p{
+  color: #fff;
+  font-family: Font;
+  font-size: 24px;
+  text-align: center;
+}
 /** resume **/
 #resume{
   background-color: #fff;
@@ -139,7 +145,14 @@ hr.black{
   text-align: center;
   font-family: Font;
   font-size: 30px;
+  color:#00CCFF;
+}
+#resume .sub-quote{
+  text-align: center;
+  font-family: Font;
+  font-size: 24px;
   color:#000;
+  margin-top:1%;
 }
 #resume .edu-bg{
   margin: 5% 0 5% 0;
@@ -178,6 +191,13 @@ display: none;
   font-family: Font;
   font-size: 50px;
   color:#fff;
+}
+#experience .sub-title{
+  font-family: Font;
+  font-size: 24px;
+  color:#fff;
+  text-align: center;
+  margin-bottom: 3%;
 }
 #experience .work-expi{
   margin: 5% 0 5% 0;
@@ -225,6 +245,12 @@ display: none;
 #skills .prog-title span{
   font-size: 20px;
   font-family: Font;
+}
+#skills .sub-title p{
+  font-family: Font;
+  font-size: 24px;
+  color:#000;
+  text-align: center;
 }
 @-webkit-keyframes move {
     0% {
@@ -309,6 +335,12 @@ display: none;
   font-family: Font;
   font-size: 50px;
   color:#fff;
+}
+#events .sub-title p{
+  font-family: Font;
+  font-size: 24px;
+  color:#00CCFF;
+  text-align: center;
 }
 #events article p{
   font-family: Font;
