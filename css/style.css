@@ -129,9 +129,6 @@ hr.black{
   font-size: 50px;
   color:#00CCFF;
 }
-#resume .title span a:hover{
-  border-bottom: 1px dashed #000;
-}
 #resume .sub-title{
   text-align: center;
   font-family: Font;
