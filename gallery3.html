@@ -6,6 +6,7 @@
     <title>MICHELLE S. NONATO</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsiveness.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -22,19 +23,42 @@
     </div>
   </section>
 
-  <section class="nav">
-    <div data-magellan-expedition="fixed">
-      <dl class="sub-nav">
-        <dd data-magellan-arrival="home"><a href="#home">HOME</a></dd>
-        <dd data-magellan-arrival="about"><a href="home.html#about">ABOUT</a></dd>
-        <dd data-magellan-arrival="resume"><a href="home.html#resume">RESUME</a></dd>
-        <dd data-magellan-arrival="experience"><a href="home.html#experience">EXPERIENCE</a></dd>
-        <dd data-magellan-arrival="skills"><a href="home.html#skills">SKILLS</a></dd>
-        <dd data-magellan-arrival="skills"><a href="#events">EVENTS</a></dd>
-        <dd data-magellan-arrival="portfolio"><a href="home.html#portfolio">PORTFOLIO</a></dd>
-        <dd data-magellan-arrival="contact"><a href="home.html#contact">CONTACT</a></dd>
-      </dl>
-    </div>
+<section class="contain-to-grid sticky">    
+    <nav class="top-bar show-for-small-only hide-for-large-up" data-topbar>
+      <ul class="title-area">
+        <li class="name"><h1><a href="home.html">MICHELLE NONATO</a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href="#"></a></li>
+      </ul>
+     
+      <div class="top-bar-section">
+        <ul class="right">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#resume">RESUME</a></li> 
+            <li><a href="#experience">EXPERIENCE</a></li> 
+            <li><a href="#skills">SKILLS</a></li> 
+            <li><a href="#events">EVENTS</a></li> 
+            <li><a href="#portfolio">PORTFOLIO</a></li> 
+            <li><a href="#contact">CONTACT</a></li> 
+        </ul>
+      </div>
+
+    </nav>
+  </section>
+       
+  <section class="nav hide-for-small-only">
+      <div data-magellan-expedition="fixed">
+        <dl class="sub-nav">
+          <dd data-magellan-arrival="home"><a href="#home">HOME</a></dd>
+          <dd data-magellan-arrival="about"><a href="#about">ABOUT</a></dd>
+          <dd data-magellan-arrival="resume"><a href="#resume">RESUME</a></dd>
+          <dd data-magellan-arrival="experience"><a href="#experience">EXPERIENCE</a></dd>
+          <dd data-magellan-arrival="skills"><a href="#skills">SKILLS</a></dd>
+          <dd data-magellan-arrival="skills"><a href="#events">EVENTS</a></dd>
+          <dd data-magellan-arrival="portfolio"><a href="#portfolio">PORTFOLIO</a></dd>
+          <dd data-magellan-arrival="contact"><a href="#contact">CONTACT</a></dd>
+        </dl>
+      </div>
   </section>
 
   <section id="gallery">
@@ -55,7 +79,7 @@
         </div>
 
         <div class="images">
-          <ul class="clearing-thumbs small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-clearing>
+          <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-3" data-clearing>
             <li><img src="img/portfolio/crafty/aboutus.png"></li>
             <li><img src="img/portfolio/crafty/login.png"></li>
             <li><img src="img/portfolio/crafty/main1.png"></li>

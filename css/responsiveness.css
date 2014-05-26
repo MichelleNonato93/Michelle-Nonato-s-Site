@@ -88,7 +88,7 @@
     width: 30px;
   }
 }
-@media only screen and (min-width: 400px) and (max-width: 490px){
+@media only screen and (min-width: 450px) and (max-width: 490px){
   hr{
     width:360px;
     margin: 5% 0 8% 10%;
@@ -160,5 +160,254 @@
   }
   .social-icons a img{
     width: 40px;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 590px){
+  hr{
+    width:420px;
+    margin: 5% 0 8% 10%;
+  }
+  hr.black{
+    width:380px;
+    margin: 5% 0 8% 12%;
+  }
+  hr.main{
+    position: relative;
+    top:-300px;
+    width:350px;
+    margin: 0 0 5% 12%;
+  }
+  #home{
+    height: 400px;
+  }
+  #home .title span{
+    font-size: 40px;
+    position: relative;
+    top:-300px;
+  }
+  #home img{
+    position: relative;
+    top:145px;
+    left: 200px;
+    margin-bottom: 5%;
+  }
+  #quote{
+    height: 260px;
+  }
+  #quote .quote-title span{
+    font-size: 35px;
+  }
+  #quote .quote-title2 span{
+    font-size: 45px;
+  }
+  #quote .quote-title2 span:nth-child(2){
+    font-size: 50px;
+  }
+  #quote .quote-title2 span:nth-child(3){
+    font-size: 50px;
+  }
+  #resume .sub-quote{
+    font-size: 30px;
+    margin:10% 0 10% 0;
+  }
+  #resume .edu-bg img{
+    position: relative;
+    top:-10px;
+  }
+  #experience .sub-title{
+    font-size: 30px;
+    margin: 10% 0 10% 0;
+  }
+  #experience img{
+    position: relative;
+    top:-15px;
+  }
+  #events .sub-title p{
+    font-size: 30px;
+  }
+  #skills .sub-title p{
+    font-size: 30px;
+    margin: 10% 0 10% 0;
+  }
+  #portfolio .gallery ul li img{
+    margin: 0 18% 5% 18%;
+  }
+  .footer .title span{
+    font-size: 40px;
+  }
+  .social-icons a img{
+    width: 40px;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 650px){
+  hr{
+    width:420px;
+    margin: 5% 0 8% 10%;
+  }
+  hr.black{
+    width:380px;
+    margin: 5% 0 8% 12%;
+  }
+  hr.main{
+    position: relative;
+    top:-300px;
+    width:440px;
+    margin: 0 0 5% 12%;
+  }
+  #home{
+    height: 400px;
+  }
+  #home .title span{
+    font-size: 40px;
+    position: relative;
+    top:-300px;
+  }
+  #home img{
+    position: relative;
+    top:145px;
+    left: 235px;
+    margin-bottom: 5%;
+  }
+  #quote{
+    height: 260px;
+  }
+  #quote .quote-title span{
+    font-size: 35px;
+  }
+  #quote .quote-title2 span{
+    font-size: 45px;
+  }
+  #quote .quote-title2 span:nth-child(2){
+    font-size: 50px;
+  }
+  #quote .quote-title2 span:nth-child(3){
+    font-size: 50px;
+  }
+  #resume .sub-quote{
+    font-size: 30px;
+    margin:10% 0 10% 0;
+  }
+  #resume .edu-bg img{
+    position: relative;
+    top:-10px;
+  }
+  #experience .sub-title{
+    font-size: 30px;
+    margin: 10% 0 10% 0;
+  }
+  #experience img{
+    position: relative;
+    top:-15px;
+  }
+  #events .sub-title p{
+    font-size: 30px;
+  }
+  #skills .sub-title p{
+    font-size: 30px;
+    margin: 10% 0 10% 0;
+  }
+  #portfolio .gallery ul li img{
+    margin: 0 18% 5% 18%;
+  }
+  .footer .title span{
+    font-size: 45px;
+  }
+  .social-icons a img{
+    width: 50px;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 800px){
+  hr{
+    width:540px;
+    margin: 5% 0 3% 10%;
+  }
+  hr.black{
+    width:520px;
+    margin: 5% 0 3% 12%;
+  }
+  hr.main{
+    position: relative;
+    top:-300px;
+    width:500px;
+    margin: 0 0 5% 15%;
+  }
+  .nav .sub-nav dd{
+    margin: 1% -2% 1% -2%;
+  }
+.nav .sub-nav dd a{
+  font-size: 20px;
+}
+  #home{
+    height: 400px;
+  }
+  #home .title span{
+    font-size: 50px;
+    position: relative;
+    top:-320px;
+  }
+  #home img{
+    position: relative;
+    top:145px;
+    left: 320px;
+    margin-bottom: 3%;
+  }
+  #quote{
+    height: 260px;
+  }
+  #quote .quote-title span{
+    font-size: 35px;
+  }
+  #quote .quote-title2 span{
+    font-size: 45px;
+  }
+  #quote .quote-title2 span:nth-child(2){
+    font-size: 50px;
+  }
+  #quote .quote-title2 span:nth-child(3){
+    font-size: 50px;
+  }
+  #resume .sub-quote{
+    font-size: 30px;
+    margin:5% 0 5% 0;
+  }
+  #resume .edu-bg img{
+    position: relative;
+    top:-10px;
+  }
+  #experience .sub-title{
+    font-size: 30px;
+    margin: 5% 0 5% 0;
+  }
+  #experience img{
+    position: relative;
+    top:-15px;
+  }
+  #events .sub-title p{
+    font-size: 30px;
+  }
+  #skills .sub-title p{
+    font-size: 30px;
+    margin: 5% 0 5% 0;
+  }
+  #portfolio .gallery ul li img{
+    margin: 0 10% 5% 10%;
+  }
+  .footer .title span{
+    font-size: 50px;
+  }
+  .social-icons a img{
+    width: 55px;
+  }
+  #gallery .images ul li img{
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1010px) and (max-width: 1040px){
+
+  .nav .sub-nav dd{
+    margin:0 -1% 0 -1%;
+  }
+  #portfolio .gallery ul li{
+    margin: 0 -25% 0 15%;
   }
 }
