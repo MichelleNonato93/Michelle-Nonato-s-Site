@@ -1252,7 +1252,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: #00CCFF;
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1328,7 +1328,7 @@ meta.foundation-mq-topbar {
     height: auto;
     background: transparent; }
     .top-bar.expanded .title-area {
-      background: #333333; }
+      background: #00CCFF; }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -1343,7 +1343,7 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
+    background: #00CCFF;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -1358,20 +1358,20 @@ meta.foundation-mq-topbar {
     color: white;
     padding: 12px 0 12px 0;
     padding-left: 15px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: Font;
     font-size: 0.8125rem;
     font-weight: normal;
     text-transform: none;
-    background: #333333; }
+    background: #00CCFF; }
     .top-bar-section ul li > a.button {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
-      border-color: #007095;
+      background-color: #00CCFF;
+      border-color: #00CCFF;
       color: white; }
       .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-        background-color: #007095; }
+        background-color: #00CCFF; }
       .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
         color: white; }
     .top-bar-section ul li > a.button.secondary {
@@ -1383,7 +1383,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
         color: #333333; }
     .top-bar-section ul li > a.button.success {
-      background-color: #43ac6a;
+      background-color: #00CCFF;
       border-color: #368a55;
       color: white; }
       .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {

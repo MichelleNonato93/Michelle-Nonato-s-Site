@@ -80,6 +80,10 @@ hr.black{
   padding-left:10px;
   text-decoration: underline;
 }
+/** top bar **/
+nav ul.title-area li.name h1{
+  font-family: Font;
+}
 /** about me **/
 #about{
   padding: 2% 0 0 0;

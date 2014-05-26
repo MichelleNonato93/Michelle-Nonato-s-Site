@@ -1,0 +1,164 @@
+/** media screen **/
+
+@media only screen and (min-width: 320px) and (max-width: 380px) {
+  hr{
+    width:230px;
+    margin: 5% 0 8% 6%;
+  }
+  hr.black{
+    width:230px;
+    margin: 5% 0 8% 6%;
+  }
+  hr.main{
+    position: relative;
+    top:-300px;
+    width:220px;
+    margin: 0 0 5% 12%;
+  }
+  #home{
+    height: 400px;
+  }
+  #home .title span{
+    font-size: 40px;
+    position: relative;
+    top:-300px;
+  }
+  #home img{
+    position: relative;
+    top:145px;
+    left: 95px;
+    margin-bottom: 5%;
+  }
+  #quote{
+    height: 260px;
+  }
+  #quote .quote-title span{
+    font-size: 24px;
+  }
+  #quote .quote-title2 span{
+    font-size: 25px;
+  }
+  #quote .quote-title2 span:nth-child(2){
+    font-size: 25px;
+  }
+  #quote .quote-title2 span:nth-child(3){
+    font-size: 25px;
+  }
+  #about .me-img img{
+    height: 240px;
+    margin-bottom: 5%;
+  }
+  #about .sub-title p{
+    font-size: 20px;
+  }
+  #about button{
+    position: relative;
+    left:-40px;
+  }
+  #resume .sub-title span{
+    font-size: 20px;
+  }
+  #resume .quote span{
+    font-size: 20px;
+  }
+  #resume .sub-quote{
+    font-size: 20px;
+    margin:10% 0 10% 0;
+  }
+  #resume .edu-bg img{
+    position: relative;
+    top:-5px;
+  }
+  #experience .sub-title{
+    font-size: 20px;
+    margin: 10% 0 10% 0;
+  }
+  #experience img{
+    position: relative;
+    top:-10px;
+  }
+  #skills .sub-title p{
+    font-size: 20px;
+    margin: 10% 0 10% 0;
+  }
+  .footer .title span{
+    font-size: 35px;
+  }
+  .social-icons a img{
+    width: 30px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 490px){
+  hr{
+    width:360px;
+    margin: 5% 0 8% 10%;
+  }
+  hr.black{
+    width:350px;
+    margin: 5% 0 8% 12%;
+  }
+  hr.main{
+    position: relative;
+    top:-300px;
+    width:350px;
+    margin: 0 0 5% 12%;
+  }
+  #home{
+    height: 400px;
+  }
+  #home .title span{
+    font-size: 40px;
+    position: relative;
+    top:-300px;
+  }
+  #home img{
+    position: relative;
+    top:145px;
+    left: 200px;
+    margin-bottom: 5%;
+  }
+  #quote{
+    height: 260px;
+  }
+  #quote .quote-title span{
+    font-size: 24px;
+  }
+  #quote .quote-title2 span{
+    font-size: 45px;
+  }
+  #quote .quote-title2 span:nth-child(2){
+    font-size: 50px;
+  }
+  #quote .quote-title2 span:nth-child(3){
+    font-size: 50px;
+  }
+  #resume .sub-quote{
+    font-size: 20px;
+    margin:10% 0 10% 0;
+  }
+  #resume .edu-bg img{
+    position: relative;
+    top:-10px;
+  }
+  #experience .sub-title{
+    font-size: 20px;
+    margin: 10% 0 10% 0;
+  }
+  #experience img{
+    position: relative;
+    top:-15px;
+  }
+  #skills .sub-title p{
+    font-size: 20px;
+    margin: 10% 0 10% 0;
+  }
+  #portfolio .gallery ul li img{
+    margin: 0 18% 5% 18%;
+  }
+  .footer .title span{
+    font-size: 40px;
+  }
+  .social-icons a img{
+    width: 40px;
+  }
+}
