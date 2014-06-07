@@ -1,8 +1,9 @@
 @font-face
 {
 font-family:Font;
-src: url('../fonts/CheekyRabbit.ttf');
+src: url('../fonts/cinnamoncake.ttf');
 }
+
 body{
   background-image: url('../img/blue.jpg');
   background-attachment: fixed;
@@ -44,7 +45,7 @@ hr.black{
 }
 #home .title span{
   font-family: Font;
-  font-size: 80px;
+  font-size: 100px;
   color:#00CCFF;
 }
 #home img{
